@@ -1,0 +1,153 @@
+.container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.home {
+	background: #ffffff;
+}
+
+.home .section-background {
+	background: transparent url("http://placekitten.com/g/600/585") no-repeat bottom right;
+}
+
+.home a:visited {
+	background-color: #ff6033;
+}
+
+.home h2 {
+	font: 800 60px "Raleway";
+	padding-top: 315px;
+	color: black;
+}
+
+.home p {
+	color: black;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+.home .navbar-header a {
+	font-family: "Pacifico", cursive;
+    font-size: 50px;
+    font-weight: 400;
+	line-height: 55px;
+	color: black;
+}
+
+.home li {
+	margin-left: 20px;
+	padding: 20px 0;
+}
+
+.home .nav .active a {
+	background-color: transparent;
+	color: black;
+}
+
+.home .nav .active a:hover {
+	background-color: transparent;
+	color: #ff6033;
+}
+
+.home .nav li a {
+	text-transform: uppercase;
+	font: 600 16px "Raleway";
+	color: black;
+}
+
+.home .nav li a:hover {
+	border-top: 3px solid #ff6033;
+	color: #ff6033;
+	margin-top: -3px;
+}
+
+.button {
+	font: 20px "Raleway";
+	color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 0;
+	border: 0;
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+	padding: 15px 50px;
+}
+
+.about-us {
+	background-color: #00c4c4;
+}
+
+.about-us .section-background {
+	background: transparent url("http://placekitten.com/g/600/585") no-repeat bottom left;
+}
+
+.about-us h2 {
+	font: 800 60px "Raleway";
+	padding-top: 150px;
+	color: white;
+}
+
+.about-us p {
+	color: white;
+}
+
+.classic-paragraf {
+	font: 17px/1.5 "Raleway";
+}
+
+.our-services {
+	background-color: #70bfff;
+}
+
+
+.our-services .section-background {
+	background: transparent url("http://placekitten.com/g/600/585") no-repeat bottom right;
+}
+
+.our-services h2 {
+	font: 800 60px "Raleway";
+	color: #ffffff;
+	text-align: center;
+	padding-top: 155px;
+}
+
+.services-box {
+	display: flex;
+	align-items: center;
+}
+
+.services-box .btn-link {
+	font: 700 20px "Raleway";
+	border: 0;
+	border-radius: 0;
+	border-right: 1px solid black;
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	outline: none !important;
+	padding: 38px 70px;
+	margin-top: 20px;
+}
+
+.services-box .glyphicon {
+	background-color: white;
+	border-radius: 0;
+	top: 0;
+	padding: 20px 27px;
+	margin-top: 20px;
+	font-size: 45px
+}
+
+.services-box .btn-lg {
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+
+
