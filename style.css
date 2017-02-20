@@ -76,11 +76,25 @@
 }
 
 .scroll-icon {
-	background: url("img/scroll.png") no-repeat center;
-	min-height: 50px;
-	padding: 15px;
-	margin-top: 270px;
-	margin-bottom: 60px; 
+	position: relative;
+	content: '';
+	width: 25px;
+	height: 40px;
+	border: 2px solid black;
+	border-radius: 25px;
+	margin: 275px auto 70px auto;
+}
+
+.scroll-icon:after {
+  position: absolute;
+  content: '';
+  width: 3px;
+  height: 15px;
+  background: #000000;
+  border-radius: 25%;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .about-us {
@@ -124,34 +138,39 @@
 	margin-top: 350px;
 }
 
-.services-box .btn {
-	font: 700 20px "Raleway";
-	border: 0;
-	border-radius: 0;
-	color: #000000;
-	background-color: white;
-	margin-top: 20px;
-	padding: 0;
+.services-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	max-width: 400px;
-}
-
-.services-box .glyphicon {
+	min-height: 100px;
 	background-color: #ffffff;
-	border-radius: 0;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 10px rgba(0,0,0,.5)
+}
+
+.services-box p {
+	font: 700 20px "Raleway";
+	padding: 20px 0;
+	margin: auto;
+	max-width: 300px;
+	color: #000000;
+}
+
+.services-box img {
 	border-left: 1px solid #000000;
-	top: 0;
-	padding: 20px 27px;
-	font-size: 45px;
-	float: right;
+	max-width: 100px;
+	width: 100%;
+	padding: 25px; 
 }
 
-.services-box:first-child {
-	margin-top: 170px;
+.our-services a:first-child .services-box {
+	margin-top: 180px;
 }
 
-.services-box:last-child {
-	margin-bottom: 140px;
+.our-services a:last-child .services-box {
+	margin-bottom: 150px;
 }
 
 .gallery {
@@ -356,6 +375,22 @@ address {
 	margin-bottom: 18%;
 }
 
+.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.form-control::-moz-placeholder {
+  color: #ffffff;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.form-control:-moz-placeholder {
+  color: #ffffff;
+}
+
 .footer {
 	background-color: #262626;
 }
@@ -402,6 +437,16 @@ address {
 		background-size: 80%;
 	}
 
+	.about-us h2 {
+		text-align: center;
+		background-color: #00c4c4;
+	}
+
+	.about-us .classic-paragraf {
+		text-align: center;
+		background-color: #00c4c4;
+	}
+
 	.our-services .section-background {
 		background: transparent url(img/tomato.png) no-repeat center;
 		background-size: 90%;
@@ -411,8 +456,24 @@ address {
 		margin-top: 150px;
 	}
 
-	.services-box:first-child {
-		margin-top: 100px;
+	.services-box {
+		margin: 20px auto;
+	}
+
+	.services-box p {
+		font-size: 15px;
+	}
+
+	.our-services a:first-child .services-box {
+		margin-top: 80px;
+	}
+
+	.our-services a:last-child .services-box {
+		margin-bottom: 50px;
+	}
+
+	.blog-date {
+		opacity: 1;
 	}
 
 	.blog-content {
@@ -451,7 +512,7 @@ address {
 	}
 
 	.scroll-icon {
-		margin: 60px 0 25px 0;
+		margin: 60px auto 25px auto;
 	}
 
 	.about-us .section-background {
@@ -463,6 +524,7 @@ address {
 	.about-us h2 {
 		font-size: 50px;
 		margin-top: 300px;
+		text-align: center;
 	}
 
 	.about-us .two {
@@ -478,19 +540,6 @@ address {
 	.our-services h2{
 		font-size: 50px;
 		margin-top: 100px;
-	}
-
-	.services-box:first-child {
-		margin-top: 40px;
-	}
-
-	.services-box:last-child {
-		margin-bottom: 40px;
-	}
-
-	.services-box .glyphicon {
-		font-size: 20px;
-		padding: 10px;
 	}
 
 	.gallery h2 {
