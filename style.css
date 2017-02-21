@@ -57,7 +57,7 @@
 .home h2 {
 	font: 800 60px "Raleway";
 	color: #000000;
-	margin-top: 350px;
+	margin-top: 355px;
 }
 
 .home p {
@@ -433,13 +433,12 @@ address {
 	}
 
 	.about-us .section-background {
-		background: url(img/raspberries.png) no-repeat center;
-		background-size: 80%;
+		background: url(img/raspberries.png) no-repeat top right;
+		background-size: 40%;
 	}
 
 	.about-us h2 {
 		text-align: center;
-		background-color: #00c4c4;
 	}
 
 	.about-us .classic-paragraf {
