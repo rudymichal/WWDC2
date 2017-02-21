@@ -434,7 +434,7 @@ address {
 
 	.about-us .section-background {
 		background: url(img/raspberries.png) no-repeat top right;
-		background-size: 40%;
+		background-size: 35%;
 	}
 
 	.about-us h2 {
@@ -443,8 +443,11 @@ address {
 
 	.about-us .classic-paragraf {
 		text-align: center;
-		background-color: #00c4c4;
 	}
+
+	.about-us .two {
+	margin-bottom: 130px;
+}
 
 	.our-services .section-background {
 		background: transparent url(img/tomato.png) no-repeat center;
@@ -515,15 +518,13 @@ address {
 	}
 
 	.about-us .section-background {
-		background: url(img/raspberries.png) no-repeat top;
-		background-size: 70%;
-		background-position: 50% 15%;
+		background: none;
 	}
 
 	.about-us h2 {
 		font-size: 50px;
-		margin-top: 300px;
 		text-align: center;
+		margin-top: 100px;
 	}
 
 	.about-us .two {
