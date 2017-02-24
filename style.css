@@ -1,6 +1,7 @@
 .navbar-default {
 	background-color: transparent;
 	border: none;
+	transition: all, cubic-bezier(0.4, 0, 1, 1), 0.4s;
 }
 
 .header .navbar-header a {
