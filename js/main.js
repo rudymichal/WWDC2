@@ -14,7 +14,6 @@ $(document).ready(function(){
 
 });
 
-
 $(document).ready(function(){
 
   $("#btn-gallery").click(function(e) {
@@ -38,7 +37,6 @@ $(document).ready(function(){
   });
 });
 
-
 var sections = document.querySelectorAll('section');
 var navbar = $('.navbar');
 
@@ -53,8 +51,7 @@ function scrollSection() {
       navbar.css({'background-color': section.dataset.color});
     }
   }
-
-} 
+}
 
 window.addEventListener('scroll', scrollSection);
 

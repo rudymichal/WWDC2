@@ -418,6 +418,10 @@ address {
 
 @media screen and (max-width: 991px) {
 
+	.navbar-colapse {
+		background-color: #e7e7e7;
+	}
+
 	.header li {
 		margin: 0;
 		padding: 15px 0;
@@ -507,7 +511,6 @@ address {
 
 	.header li {
 		padding: 5px 0;
-		background-color: #f9f9fb;
 	}
 
 	.header li:first-child {
