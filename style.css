@@ -495,7 +495,7 @@ address {
 
 @media screen and (max-width: 767px) {
 
-	.navbar-default {
+	.navbar-default .navbar-fixed-top {
 		background-color: #f9f9fb;
 		opacity: 0.9;
 	}
